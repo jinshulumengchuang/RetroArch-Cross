@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>CrossRetroArch</title>
+    <style>
+    .vpad1 {
+      width: 50px;
+      height: 50px;
+      position: fixed;
+      opacity: 0.6;
+
+    }
+    body {
+      user-select: none;
+      -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none;
+    }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+    <button ontouchstart="mykeydown('Down')" ontouchend="mykeyup('Down')"  ontouchcancel="mykeyup('Down')" class="vpad1" style="bottom:40px;left:80px" >Down</button>
+    <button ontouchstart="mykeydown('Up')" ontouchend="mykeyup('Up')"  ontouchcancel="mykeyup('Up')" class="vpad1" style="bottom:100px;left:80px" >UP</button>
+    <button ontouchstart="mykeydown('Left')" ontouchend="mykeyup('Left')"  ontouchcancel="mykeyup('Left')" class="vpad1" style="bottom:60px;left:20px" >Left</button>
+    <button ontouchstart="mykeydown('Right')" ontouchend="mykeyup('Right')"  ontouchcancel="mykeyup('Right')" class="vpad1" style="bottom:60px;left:140px" >Right</button>
+    <button ontouchstart="mykeydown('K')" ontouchend="mykeyup('K')"  ontouchcancel="mykeyup('K')" class="vpad1" style="bottom:160px;left:80px" >K</button>
+    <button ontouchstart="mykeydown('I')" ontouchend="mykeyup('I')"  ontouchcancel="mykeyup('I')" class="vpad1" style="bottom:220px;left:80px" >I</button>
+    <button ontouchstart="mykeydown('J')" ontouchend="mykeyup('J')"  ontouchcancel="mykeyup('J')" class="vpad1" style="bottom:180px;left:20px" >J</button>
+    <button ontouchstart="mykeydown('L')" ontouchend="mykeyup('L')"  ontouchcancel="mykeyup('L')" class="vpad1" style="bottom:180px;left:140px" >L</button>
+    <button ontouchstart="mykeydown('Z')" ontouchend="mykeyup('Z')"  ontouchcancel="mykeyup('Z')" class="vpad1" style="bottom:40px;right:80px" >Z</button>
+    <button ontouchstart="mykeydown('S')" ontouchend="mykeyup('S')"  ontouchcancel="mykeyup('S')" class="vpad1" style="bottom:100px;right:80px" >S</button>
+    <button ontouchstart="mykeydown('A')" ontouchend="mykeyup('A')"  ontouchcancel="mykeyup('A')" class="vpad1" style="bottom:60px;right:20px" >A</button>
+    <button ontouchstart="mykeydown('X')" ontouchend="mykeyup('X')"  ontouchcancel="mykeyup('X')" class="vpad1" style="bottom:60px;right:140px" >X</button>
+    <button ontouchstart="mykeydown('Return')" ontouchend="mykeyup('Return')"  ontouchcancel="mykeyup('Return')" class="vpad1" style="bottom:180px;right:20px" >Enter</button>
+    <button ontouchstart="mykeydown('Shift_R')" ontouchend="mykeyup('Shift_R')"  ontouchcancel="mykeyup('Shift_R')" class="vpad1" style="bottom:180px;right:140px" >Select</button>
+    <button ontouchstart="mykeydown('F1')" ontouchend="mykeyup('F1')"  ontouchcancel="mykeyup('F1')" class="vpad1" style="bottom:180px;right:80px" >F1</button>
+    <button ontouchstart="mykeydown('Q')" ontouchend="mykeyup('Q')"  ontouchcancel="mykeyup('Q')" class="vpad1" style="bottom:240px;left:20x" >Q</button>
+    <button ontouchstart="mykeydown('W')" ontouchend="mykeyup('W')"  ontouchcancel="mykeyup('W')" class="vpad1" style="bottom:240px;left:140px" >W</button>
+    <iframe frameborder=0 id="main"></iframe>
+    <script src="main.js"></script>
+    </main>
+    <footer></footer>
+  </body>
+</html>
